@@ -1,0 +1,31 @@
+* {
+	font-family: Arial, sans-serif;
+}
+
+body {
+	background-color: #ccff99;
+}
+
+.menu {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+
+.menuitem {
+	border: 1px solid red;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+.menuitem a {
+	color: #990000;
+	text-decoration: none;
+}
+
+.lastModified {
+	font-style: italic;
+	font-weight: bold;
+}
